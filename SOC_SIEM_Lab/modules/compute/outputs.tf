@@ -1,0 +1,1 @@
+output "siem_public_ip" { value = aws_instance.siem.public_ip }

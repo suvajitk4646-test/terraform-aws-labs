@@ -1,0 +1,10 @@
+# Ignore local .terraform directories in all subfolders
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Ignore all state files and backup state files in all subfolders
+**/*.tfstate
+**/*.tfstate.*
+
+# Ignore sensitive variable files
+**/*.tfvars
