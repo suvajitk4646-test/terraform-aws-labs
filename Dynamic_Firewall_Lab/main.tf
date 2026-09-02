@@ -6,7 +6,7 @@ locals {
     ssh    = { port = 22,   description = "Admin SSH Access" }
     https  = { port = 443,  description = "Web GUI" }
     syslog = { port = 514,  description = "Log Ingestion" }
-    api    = { port = 8089, description = "Tool API Access" }
+    api    = { port = 8089, description = "Tool API Accessss" }
   }
 }
 
